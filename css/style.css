@@ -1,0 +1,83 @@
+/* Selector {
+    Property: value;
+} */
+
+* {
+    text-align: right;
+}
+
+body {
+    /* background-image: url("https://images.unsplash.com/photo-1705469531575-89d63f23e25f?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    background-size: cover;
+}
+
+/* 
+
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255,176,170,0.5);
+    cursor: pointer;
+}
+ */
+/* 
+h2 p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255,176,170,0.5);
+    cursor: pointer;
+} 
+*/
+
+h2 > p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255,176,170,0.5);
+    cursor: pointer;
+}
+
+p {
+    color: pink !important;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.2);
+}
+
+
+/* 
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended) 
+*/
