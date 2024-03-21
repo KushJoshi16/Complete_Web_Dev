@@ -1,0 +1,6 @@
+var first = prompt("Enter First number");
+var second = prompt("Enter Second number");
+
+sum = Number(first) + Number(second);
+
+alert("sum is: "+sum);

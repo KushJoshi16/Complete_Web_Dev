@@ -1,0 +1,10 @@
+23
+undefined
+
+
+var firstName = "Kush"
+
+var lastName = "joshi"
+
+
+var fullName = firstName + " " + lastName

@@ -1,0 +1,28 @@
+"534"
+1
+0
+5
+"JavaScript"
+"  "
+" 0"
+true // correct ans -> 2
+true // correct ans -> 1
+true // correct ans -> 1
+NaN // correct ans -> -1
+-1
+NaN
+
+
+true
+false
+false
+false
+false
+true
+true
+false
+false
+false
+
+
+"Hi There!" + " It's \"sunny\" out"
